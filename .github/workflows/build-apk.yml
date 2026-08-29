@@ -1,23 +1,22 @@
 name: TESTE ACTIONS
 
 on:
-workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
-teste:
-name: Teste Runner
-runs-on: ubuntu-24.04
+  build:
+    runs-on: ubuntu-24.04
 
-steps:
-  - name: Inicio
-    run: echo "RUNNER INICIOU"
+    steps:
+      - name: Inicio
+        run: echo "RUNNER INICIOU"
 
-  - name: Sistema
-    run: |
-      echo "Sistema:"
-      uname -a
-      echo "Data:"
-      date
+      - name: Sistema
+        run: |
+          echo "Sistema:"
+          uname -a
+          echo "Data:"
+          date
 
-  - name: Fim
-    run: echo "RUNNER FUNCIONOU"
+      - name: Fim
+        run: echo "RUNNER FUNCIONOU"
