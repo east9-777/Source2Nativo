@@ -1,26 +1,23 @@
-name: Test GitHub Actions
+name: TESTE ACTIONS
 
 on:
 workflow_dispatch:
-push:
-branches:
-- main
 
 jobs:
-test:
-runs-on: ubuntu-latest
+teste:
+name: Teste Runner
+runs-on: ubuntu-24.04
 
 steps:
-  - name: Test
+  - name: Inicio
+    run: echo "RUNNER INICIOU"
+
+  - name: Sistema
     run: |
-      echo "================================"
-      echo "GITHUB ACTIONS FUNCIONANDO"
-      echo "================================"
-      echo "Data:"
-      date
       echo "Sistema:"
       uname -a
-      echo "Diretorio:"
-      pwd
-      echo "Arquivos:"
-      ls -la
+      echo "Data:"
+      date
+
+  - name: Fim
+    run: echo "RUNNER FUNCIONOU"
