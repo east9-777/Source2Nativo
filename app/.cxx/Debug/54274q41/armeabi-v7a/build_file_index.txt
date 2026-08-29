@@ -1,0 +1,11 @@
+C:\apknovo\app\src\main\cpp\CMakeLists.txt
+C:\apknovo\app\src\main\cpp\opus\cmake\CFeatureCheck.cmake
+C:\apknovo\app\src\main\cpp\opus\cmake\config.h.cmake.in
+C:\apknovo\app\src\main\cpp\opus\cmake\OpusBuildtype.cmake
+C:\apknovo\app\src\main\cpp\opus\cmake\OpusConfig.cmake
+C:\apknovo\app\src\main\cpp\opus\cmake\OpusConfig.cmake.in
+C:\apknovo\app\src\main\cpp\opus\cmake\OpusFunctions.cmake
+C:\apknovo\app\src\main\cpp\opus\cmake\OpusPackageVersion.cmake
+C:\apknovo\app\src\main\cpp\opus\cmake\OpusSources.cmake
+C:\apknovo\app\src\main\cpp\opus\CMakeLists.txt
+C:\apknovo\app\src\main\cpp\samp\CMakeLists.txt

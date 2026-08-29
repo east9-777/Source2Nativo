@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\loadingscreen.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\loadingscreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\dialog_item.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\dialog_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\fragment_internet.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\fragment_internet.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\alertdialog_server.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\alertdialog_server.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\tablayout_item.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\tablayout_item.xml"
+    },
+    {
+        "merged": "com.raiferoleplay.game.app-mergeDebugResources-44:/layout/activity_update.xml",
+        "source": "com.raiferoleplay.game.app-main-47:/layout/activity_update.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\fragment_news.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\fragment_news.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\main_render_screen.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\main_render_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\fragment_servers.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\fragment_servers.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\list_item.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\activity_update.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\activity_update.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\fragment_favorite.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\fragment_favorite.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\celular.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\celular.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\alertdialog_addserver.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\alertdialog_addserver.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\dialog_servers.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\dialog_servers.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\attachedit.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\attachedit.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\server_item.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\server_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\dialog.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\layout_keyboard.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\layout_keyboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\notification.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\dialog_settings.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\dialog_settings.xml"
+    },
+    {
+        "merged": "com.raiferoleplay.game.app-mergeDebugResources-44:/layout/fragment_settings.xml",
+        "source": "com.raiferoleplay.game.app-main-47:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\item_server.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\item_server.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-mergeDebugResources-44:\\layout\\logomain.xml",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\logomain.xml"
+    }
+]

@@ -1,0 +1,456 @@
+The target system is: Android - 1 - armv7-a
+The host system is: Windows - 10.0.19045 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-march=armv7-a;-mthumb;-Wformat;-Werror=format-security;
+Id flags: -c;--target=armv7-none-linux-androideabi26 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is Clang, found in "C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-march=armv7-a;-mthumb;-Wformat;-Werror=format-security;;
+Id flags: -c;--target=armv7-none-linux-androideabi26 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is Clang, found in "C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\thziim\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_50377 && [1/2] Building C object CMakeFiles/cmTC_50377.dir/CMakeCCompilerABI.c.o
+Android (11349228, based on r487747e) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
+Target: armv7-none-linux-android26
+Thread model: posix
+InstalledDir: C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/bin
+ (in-process)
+ "C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe" -cc1 -triple thumbv7-none-linux-android26 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp -resource-dir C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17 -dependency-file "CMakeFiles\\cmTC_50377.dir\\CMakeCCompilerABI.c.o.d" -MT CMakeFiles/cmTC_50377.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include -internal-isystem C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_50377.dir/CMakeCCompilerABI.c.o -x c C:/Users/thziim/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+clang -cc1 version 17.0.2 based upon LLVM 17.0.2 default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include"
+ignoring nonexistent directory "C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include
+ C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi
+ C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking C executable cmTC_50377
+Android (11349228, based on r487747e) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
+Target: armv7-none-linux-android26
+Thread model: posix
+InstalledDir: C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/bin
+ "C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -EL -z now -z relro -z max-page-size=4096 -X --hash-style=gnu --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_50377 C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtbegin_dynamic.o -LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/arm -LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26 -LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi -LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib -LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_50377.dir/CMakeCCompilerABI.c.o C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtend_android.o
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include]
+    add: [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi]
+    add: [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  end of search list found
+  collapse include dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include] ==> [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include]
+  collapse include dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi] ==> [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi]
+  collapse include dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include] ==> [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  implicit include dirs: [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include;C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi;C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:\Users\thziim\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_50377 && [1/2] Building C object CMakeFiles/cmTC_50377.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Android (11349228  based on r487747e) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)]
+  ignore line: [Target: armv7-none-linux-android26]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe" -cc1 -triple thumbv7-none-linux-android26 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp -resource-dir C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17 -dependency-file "CMakeFiles\\cmTC_50377.dir\\CMakeCCompilerABI.c.o.d" -MT CMakeFiles/cmTC_50377.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include -internal-isystem C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_50377.dir/CMakeCCompilerABI.c.o -x c C:/Users/thziim/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 17.0.2 based upon LLVM 17.0.2 default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include]
+  ignore line: [ C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi]
+  ignore line: [ C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_50377]
+  ignore line: [Android (11349228  based on r487747e) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)]
+  ignore line: [Target: armv7-none-linux-android26]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/bin]
+  link line: [ "C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -EL -z now -z relro -z max-page-size=4096 -X --hash-style=gnu --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_50377 C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtbegin_dynamic.o -LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/arm -LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26 -LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi -LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib -LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_50377.dir/CMakeCCompilerABI.c.o C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtend_android.o]
+    arg [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld] ==> ignore
+    arg [--sysroot=C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_50377] ==> ignore
+    arg [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtbegin_dynamic.o] ==> obj [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtbegin_dynamic.o]
+    arg [-LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/arm] ==> dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/arm]
+    arg [-LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26] ==> dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26]
+    arg [-LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi]
+    arg [-LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib] ==> dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib]
+    arg [-LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--no-undefined-version] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [CMakeFiles/cmTC_50377.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a] ==> lib [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a] ==> lib [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtend_android.o] ==> obj [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtend_android.o]
+  remove lib [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a]
+  remove lib [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a]
+  collapse library dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/arm] ==> [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/arm]
+  collapse library dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26] ==> [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26]
+  collapse library dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi]
+  collapse library dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib] ==> [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  collapse library dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit libs: [-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+  implicit objs: [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtbegin_dynamic.o;C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtend_android.o]
+  implicit dirs: [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/arm;C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26;C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi;C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\thziim\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_99ca0 && [1/2] Building CXX object CMakeFiles/cmTC_99ca0.dir/CMakeCXXCompilerABI.cpp.o
+Android (11349228, based on r487747e) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
+Target: armv7-none-linux-android26
+Thread model: posix
+InstalledDir: C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/bin
+ (in-process)
+ "C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe" -cc1 -triple thumbv7-none-linux-android26 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp -resource-dir C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17 -dependency-file "CMakeFiles\\cmTC_99ca0.dir\\CMakeCXXCompilerABI.cpp.o.d" -MT CMakeFiles/cmTC_99ca0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1 -internal-isystem C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include -internal-isystem C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -fdebug-compilation-dir=C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_99ca0.dir/CMakeCXXCompilerABI.cpp.o -x c++ C:/Users/thziim/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 17.0.2 based upon LLVM 17.0.2 default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include"
+ignoring nonexistent directory "C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1
+ C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include
+ C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi
+ C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking CXX executable cmTC_99ca0
+Android (11349228, based on r487747e) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
+Target: armv7-none-linux-android26
+Thread model: posix
+InstalledDir: C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/bin
+ "C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -EL -z now -z relro -z max-page-size=4096 -X --hash-style=gnu --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_99ca0 C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtbegin_dynamic.o -LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/arm -LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26 -LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi -LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib -LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_99ca0.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtend_android.o
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+    add: [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include]
+    add: [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi]
+    add: [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  end of search list found
+  collapse include dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1] ==> [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+  collapse include dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include] ==> [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include]
+  collapse include dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi] ==> [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi]
+  collapse include dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include] ==> [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  implicit include dirs: [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1;C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include;C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi;C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:\Users\thziim\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_99ca0 && [1/2] Building CXX object CMakeFiles/cmTC_99ca0.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Android (11349228  based on r487747e) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)]
+  ignore line: [Target: armv7-none-linux-android26]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe" -cc1 -triple thumbv7-none-linux-android26 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp -resource-dir C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17 -dependency-file "CMakeFiles\\cmTC_99ca0.dir\\CMakeCXXCompilerABI.cpp.o.d" -MT CMakeFiles/cmTC_99ca0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1 -internal-isystem C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include -internal-isystem C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -fdebug-compilation-dir=C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_99ca0.dir/CMakeCXXCompilerABI.cpp.o -x c++ C:/Users/thziim/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 17.0.2 based upon LLVM 17.0.2 default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+  ignore line: [ C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include]
+  ignore line: [ C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi]
+  ignore line: [ C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_99ca0]
+  ignore line: [Android (11349228  based on r487747e) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)]
+  ignore line: [Target: armv7-none-linux-android26]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/bin]
+  link line: [ "C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -EL -z now -z relro -z max-page-size=4096 -X --hash-style=gnu --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_99ca0 C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtbegin_dynamic.o -LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/arm -LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26 -LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi -LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib -LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_99ca0.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtend_android.o]
+    arg [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld] ==> ignore
+    arg [--sysroot=C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_99ca0] ==> ignore
+    arg [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtbegin_dynamic.o] ==> obj [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtbegin_dynamic.o]
+    arg [-LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/arm] ==> dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/arm]
+    arg [-LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26] ==> dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26]
+    arg [-LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi]
+    arg [-LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib] ==> dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib]
+    arg [-LC:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--no-undefined-version] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [CMakeFiles/cmTC_99ca0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-Bstatic] ==> search static
+    arg [-lc++] ==> lib [c++]
+    arg [-Bdynamic] ==> search dynamic
+    arg [-lm] ==> lib [m]
+    arg [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a] ==> lib [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a] ==> lib [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtend_android.o] ==> obj [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtend_android.o]
+  remove lib [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a]
+  remove lib [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a]
+  collapse library dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/arm] ==> [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/arm]
+  collapse library dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26] ==> [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26]
+  collapse library dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi]
+  collapse library dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib] ==> [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  collapse library dir [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit libs: [c++;m;-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+  implicit objs: [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtbegin_dynamic.o;C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtend_android.o]
+  implicit dirs: [C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/arm;C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/26;C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi;C:/Users/thziim/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file alloca.h exists passed with the following output:
+Change Dir: C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\thziim\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_0d7c9 && [1/2] Building C object CMakeFiles/cmTC_0d7c9.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_0d7c9
+
+
+
+Determining if the alloca exist passed with the following output:
+Change Dir: C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\thziim\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_4f044 && [1/2] Building C object CMakeFiles/cmTC_4f044.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4f044
+
+
+File C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alloca
+  return ((int*)(&alloca))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function floor exists in the m passed with the following output:
+Change Dir: C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\thziim\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_0eb58 && [1/2] Building C object CMakeFiles/cmTC_0eb58.dir/CheckFunctionExists.c.o
+C:/Users/thziim/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'floor' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+C:/Users/thziim/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: 'floor' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_0eb58
+
+
+
+Determining if the lrintf exist passed with the following output:
+Change Dir: C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\thziim\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_bf5b9 && [1/2] Building C object CMakeFiles/cmTC_bf5b9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_bf5b9
+
+
+File C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lrintf
+  return ((int*)(&lrintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the lrint exist passed with the following output:
+Change Dir: C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\thziim\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_808b7 && [1/2] Building C object CMakeFiles/cmTC_808b7.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_808b7
+
+
+File C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lrint
+  return ((int*)(&lrint))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file arm_neon.h exists passed with the following output:
+Change Dir: C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\thziim\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_f4228 && [1/2] Building C object CMakeFiles/cmTC_f4228.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_f4228
+
+
+
+Performing C SOURCE FILE Test FAST_MATH_SUPPORTED succeeded with the following output:
+Change Dir: C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\thziim\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_7d645 && [1/2] Building C object CMakeFiles/cmTC_7d645.dir/src.c.o
+[2/2] Linking C executable cmTC_7d645
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test STACK_PROTECTOR_SUPPORTED succeeded with the following output:
+Change Dir: C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\thziim\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_f1ad9 && [1/2] Building C object CMakeFiles/cmTC_f1ad9.dir/src.c.o
+[2/2] Linking C executable cmTC_f1ad9
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HIDDEN_VISIBILITY_SUPPORTED succeeded with the following output:
+Change Dir: C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\thziim\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_42013 && [1/2] Building C object CMakeFiles/cmTC_42013.dir/src.c.o
+[2/2] Linking C executable cmTC_42013
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test Wall_SUPPORTED succeeded with the following output:
+Change Dir: C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\thziim\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_b0134 && [1/2] Building C object CMakeFiles/cmTC_b0134.dir/src.c.o
+[2/2] Linking C executable cmTC_b0134
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test W_SUPPORTED succeeded with the following output:
+Change Dir: C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\thziim\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_acadf && [1/2] Building C object CMakeFiles/cmTC_acadf.dir/src.c.o
+[2/2] Linking C executable cmTC_acadf
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test Wstrictprototypes_SUPPORTED succeeded with the following output:
+Change Dir: C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\thziim\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_80f90 && [1/2] Building C object CMakeFiles/cmTC_80f90.dir/src.c.o
+[2/2] Linking C executable cmTC_80f90
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test Wextra_SUPPORTED succeeded with the following output:
+Change Dir: C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\thziim\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_ed00b && [1/2] Building C object CMakeFiles/cmTC_ed00b.dir/src.c.o
+[2/2] Linking C executable cmTC_ed00b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test Wcastalign_SUPPORTED succeeded with the following output:
+Change Dir: C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\thziim\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_0e7ae && [1/2] Building C object CMakeFiles/cmTC_0e7ae.dir/src.c.o
+[2/2] Linking C executable cmTC_0e7ae
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test Wnestedexterns_SUPPORTED succeeded with the following output:
+Change Dir: C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\thziim\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_d049d && [1/2] Building C object CMakeFiles/cmTC_d049d.dir/src.c.o
+[2/2] Linking C executable cmTC_d049d
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test Wshadow_SUPPORTED succeeded with the following output:
+Change Dir: C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\thziim\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_344ec && [1/2] Building C object CMakeFiles/cmTC_344ec.dir/src.c.o
+[2/2] Linking C executable cmTC_344ec
+
+
+Source file was:
+int main(void) { return 0; }

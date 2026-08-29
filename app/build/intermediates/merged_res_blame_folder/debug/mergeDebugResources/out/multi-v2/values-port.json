@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.raiferoleplay.game.app-mergeDebugResources-43:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\caches\\8.13\\transforms\\b703a0539a692ffca796c387e6bcc270\\transformed\\appcompat-1.2.0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+  "buildFiles": [
+    "C:\\Users\\maria\\Downloads\\apknovo\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\maria\\Downloads\\apknovo\\app\\src\\main\\cpp\\opus\\cmake\\CFeatureCheck.cmake",
+    "C:\\Users\\maria\\Downloads\\apknovo\\app\\src\\main\\cpp\\opus\\cmake\\config.h.cmake.in",
+    "C:\\Users\\maria\\Downloads\\apknovo\\app\\src\\main\\cpp\\opus\\cmake\\OpusBuildtype.cmake",
+    "C:\\Users\\maria\\Downloads\\apknovo\\app\\src\\main\\cpp\\opus\\cmake\\OpusConfig.cmake",
+    "C:\\Users\\maria\\Downloads\\apknovo\\app\\src\\main\\cpp\\opus\\cmake\\OpusConfig.cmake.in",
+    "C:\\Users\\maria\\Downloads\\apknovo\\app\\src\\main\\cpp\\opus\\cmake\\OpusFunctions.cmake",
+    "C:\\Users\\maria\\Downloads\\apknovo\\app\\src\\main\\cpp\\opus\\cmake\\OpusPackageVersion.cmake",
+    "C:\\Users\\maria\\Downloads\\apknovo\\app\\src\\main\\cpp\\opus\\cmake\\OpusSources.cmake",
+    "C:\\Users\\maria\\Downloads\\apknovo\\app\\src\\main\\cpp\\opus\\CMakeLists.txt",
+    "C:\\Users\\maria\\Downloads\\apknovo\\app\\src\\main\\cpp\\samp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\maria\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\maria\\Downloads\\apknovo\\app\\.cxx\\Debug\\4t6i5m33\\armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\maria\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\maria\\Downloads\\apknovo\\app\\.cxx\\Debug\\4t6i5m33\\armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "opus::@27c8c1d919c410202cbb": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "opus",
+      "output": "C:\\Users\\maria\\Downloads\\apknovo\\app\\.cxx\\Debug\\4t6i5m33\\armeabi-v7a\\opus\\libopus.a"
+    },
+    "samp::@b6fce62990e69e83257e": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "samp",
+      "output": "C:\\Users\\maria\\Downloads\\apknovo\\app\\build\\intermediates\\cxx\\Debug\\4t6i5m33\\obj\\armeabi-v7a\\libsamp.so",
+      "runtimeFiles": [
+        "C:\\Users\\maria\\.gradle\\caches\\8.13\\transforms\\8c7804e8a26806db0790c7b8ff33d7ff\\transformed\\shadowhook-1.0.9\\prefab\\modules\\shadowhook\\libs\\android.armeabi-v7a\\libshadowhook.so",
+        "C:\\Users\\maria\\Downloads\\apknovo\\app\\src\\main\\cpp\\samp\\vendor\\bass\\libs\\armeabi-v7a\\libbass.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "C:\\Users\\maria\\AppData\\Local\\Android\\Sdk\\ndk\\26.2.11394342\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\maria\\AppData\\Local\\Android\\Sdk\\ndk\\26.2.11394342\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

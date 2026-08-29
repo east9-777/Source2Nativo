@@ -1,0 +1,116 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"opus/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 522,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 540,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 548,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 566,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"opus/libopus.a"
+			],
+			"targetId" : "opus::@27c8c1d919c410202cbb",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/opus",
+			"paths" : 
+			[
+				"opus/include/opus.h",
+				"opus/include/opus_defines.h",
+				"opus/include/opus_multistream.h",
+				"opus/include/opus_projection.h",
+				"opus/include/opus_types.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/opus/opus.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Opus",
+			"exportName" : "OpusTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "opus::@27c8c1d919c410202cbb",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"opus/CMakeFiles/Export/lib/cmake/Opus/OpusTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Opus",
+			"paths" : 
+			[
+				"C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/opus/OpusConfig.cmake",
+				"C:/apknovo/app/.cxx/Debug/54274q41/armeabi-v7a/opus/OpusConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "opus",
+		"source" : "opus"
+	}
+}

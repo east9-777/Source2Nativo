@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fundo_app"
+        android:alpha="0.90" />
+
+    <!-- ÍCONE TOPO DIREITO -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#55000000" />
+
+    <LinearLayout
+        android:id="@+id/topRightIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="1dp"
+        android:padding="6dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_settings_off" />
+    </LinearLayout>
+
+    <!-- LOGO -->
+    <!-- BOTÕES SOCIAIS NO CANTO ESQUERDO -->
+    <!-- BOTÕES SOCIAIS NO CANTO ESQUERDO -->
+
+    <LinearLayout
+        android:id="@+id/socialButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:src="@drawable/ic_discord"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_button" />
+
+        <ImageView
+            android:src="@drawable/ic_instagram"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_button" />
+
+        <ImageView
+            android:src="@drawable/ic_youtube"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_button" />
+
+        <!-- NOVO ÍCONE VK -->
+        <ImageView
+            android:src="@drawable/ic_vk"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_button" />
+
+        <!-- NOVO ÍCONE TELEGRAM -->
+        <ImageView
+            android:src="@drawable/ic_telegram"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_button" />
+
+    </LinearLayout>
+
+    <!-- BOTÃO SERVIDOR 1 (À ESQUERDA DO BOTÃO JOGAR) -->
+    <LinearLayout
+        android:id="@+id/serverCard"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_toLeftOf="@id/playButton"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/server_card_bg">
+
+        <TextView
+            android:id="@+id/serverName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SERVIDOR 1"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- BOTÃO JOGAR (À DIREITA) -->
+    <LinearLayout
+        android:id="@+id/playButton"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/play_button_bg">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_play" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="JOGAR AGORA"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</RelativeLayout>

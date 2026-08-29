@@ -1,0 +1,578 @@
+[
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_attach_right_button.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\attach_right_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_serve_viwn.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\serve_viwn.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_config.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\config.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_attach_icon_left_right.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\attach_icon_left_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_loadingscreen.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\loadingscreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\font_muller_regular.ttf.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\font\\muller_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_togle_selector.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\togle_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_fundo_total.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\fundo_total.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_fragment_news.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\fragment_news.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_baseline_notifications_24.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_baseline_notifications_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_dialog_scrollbar_thumb.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_dialog_scrollbar_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_dialog_bg.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_dialog_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_attach_icon_top_bott.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\attach_icon_top_bott.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_borda_telaw.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\borda_telaw.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_attach_icon_push_pull.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\attach_icon_push_pull.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_discord_logo.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\discord_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_launcher.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_dialog_select.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_dialog_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_bg_edit.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\bg_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_password_off.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_password_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_notification.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\notification.xml"
+    },
+    {
+        "merged": "com.raiferoleplay.game.app-debug-45:/layout_activity_update.xml.flat",
+        "source": "com.raiferoleplay.game.app-main-47:/layout/activity_update.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\font_montserrat_black.ttf.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\font\\montserrat_black.ttf"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_alertdialog_server.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\alertdialog_server.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_telegram.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_telegram.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\font_montserrat_bolditalic.ttf.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\font\\montserrat_bolditalic.ttf"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_main_render_screen.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\main_render_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_close.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_list_item.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_vk.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_vk.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_settings_off.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_settings_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_fundo_app.jpg.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\fundo_app.jpg"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_play_button_bg.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\play_button_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_serveron.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_serveron.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\anim_button_show_alpha.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\anim\\button_show_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_server_card_bg.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\server_card_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_settingsmenu.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_settingsmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_fragment_internet.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\fragment_internet.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_logo.webp.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\logo.webp"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\font_roboto_black.ttf.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\font\\roboto_black.ttf"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\font_muller_bold.ttf.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\font\\muller_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\font_montserrat_regular.ttf.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\font\\montserrat_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_seekbar_drawable.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\seekbar_drawable.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_toggle_on.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_toggle_on.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_password_on.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_password_on.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_settingsmenu_on.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_settingsmenu_on.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_dialog_bg.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\dialog_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_server_item.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\server_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_attach_top_rounded_yellow.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\attach_top_rounded_yellow.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\animator_reduce_size.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\animator\\reduce_size.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_star_on.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_star_on.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\font_muller_medium.ttf.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\font\\muller_medium.ttf"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_youtube_logo.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\youtube_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_dialog_button_positive.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_dialog_button_positive.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_attachedit.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\attachedit.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_nickname_bg.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_nickname_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_attach_yellow_icon_bg.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\attach_yellow_icon_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable-v24_helper_ic_dialog_select__0.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable-v24\\helper_ic_dialog_select__0.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_tablayout_item.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\tablayout_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\anim_button_hide_alpha.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\anim\\button_hide_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_insta_logo.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\insta_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_instagram.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_instagram.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_dialog_list_bg.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_dialog_list_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_fragment_favorite.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\fragment_favorite.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_toggle_off.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_toggle_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_item_server.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\item_server.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\font_montserrat_medium.ttf.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\font\\montserrat_medium.ttf"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_server_card.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\server_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_iconzap.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\iconzap.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_fundo_baixar.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\fundo_baixar.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_fundocelular.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\fundocelular.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_celular.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\celular.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_attach_left_button.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\attach_left_button.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_progress_color.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\progress_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\font_roboto_bold.ttf.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\font\\roboto_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_mainmenu_on.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_mainmenu_on.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_circle_button.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\circle_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_layout_keyboard.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\layout_keyboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_indeterminate_drawable.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\indeterminate_drawable.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_internet.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\internet.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_bg_dialog.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\bg_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_dialog_item.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\dialog_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_botao_sairc.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\botao_sairc.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_fragment_servers.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\fragment_servers.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_dialog_input_bg.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_dialog_input_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_buttoncolor3.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_buttoncolor3.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\font_montsserat_semibold.ttf.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\font\\montsserat_semibold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_discord.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_discord.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_fundo_carregar.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\fundo_carregar.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\font_roboto_regular.ttf.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\font\\roboto_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_attach_black_round_rect.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\attach_black_round_rect.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_logomain.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\logomain.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_dialog_button_negative.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_dialog_button_negative.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_play.webp.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_play.webp"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "com.raiferoleplay.game.app-debug-45:/layout_fragment_settings.xml.flat",
+        "source": "com.raiferoleplay.game.app-main-47:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_mainmenu.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_mainmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_youtube.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_youtube.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\anim_click.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\anim\\click.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_dialog_servers.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\dialog_servers.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\font_roboto_medium.ttf.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\font\\roboto_medium.ttf"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_dialog_scrollbar_track.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_dialog_scrollbar_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\anim_scale.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\anim\\scale.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_download_progress.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\download_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_dialog_settings.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\dialog_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\font_montserrat_bold.ttf.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\font\\montserrat_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_dialog.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_activity_update.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\activity_update.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_seekbar_thumb.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\seekbar_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_server.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_server.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_alertdialog_addserver.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\alertdialog_addserver.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_progress_drawable_bg.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\progress_drawable_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\animator_regain_size.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\animator\\regain_size.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_celular.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\celular.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable-v24_bg.png.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable-v24\\bg.png"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_attach_icon_scale.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\attach_icon_scale.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_attach_icon_rot.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\attach_icon_rot.xml"
+    },
+    {
+        "merged": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-debug-45:\\drawable_ic_buttoncolor.xml.flat",
+        "source": "C:\\Users\\NielzadaX\\Downloads\\samp-launcher-source-main\\daemon\\8.13\\com.raiferoleplay.game.app-main-47:\\drawable\\ic_buttoncolor.xml"
+    }
+]

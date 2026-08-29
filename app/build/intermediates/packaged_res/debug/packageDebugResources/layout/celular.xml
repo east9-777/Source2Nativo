@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/celular_fixed"
+        android:layout_width="1080dp"
+        android:layout_height="1920dp"
+        android:layout_gravity="center">
+    <RelativeLayout
+        android:id="@+id/TelaInicial"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imgFundo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_centerInParent="true"
+            android:src="@drawable/fundocelular"/>
+
+        <RelativeLayout
+            android:id="@+id/telaCelular"
+            android:layout_width="160dp"
+            android:layout_height="326dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="0dp"
+            android:padding="0dp">
+
+            <ImageView
+                android:id="@+id/zap"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/iconzap"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <ImageView
+    android:id="@+id/imgCelular"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/celular"
+    android:layout_gravity="center"
+    android:adjustViewBounds="true"
+    android:scaleType="fitCenter"/>
+    <LinearLayout
+        android:id="@+id/linearCentral"
+        android:layout_width="130dp"
+        android:layout_height="10dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="356dp"
+        android:orientation="vertical"
+        android:background="@drawable/botao_sairc"/>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\.cxx\Debug\1v5q504x\arm64-v8a'
+ninja: no work to do.

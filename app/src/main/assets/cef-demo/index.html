@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Widget CEF</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,300..700,0..1,-50..200" />
+  <style>
+:root { --size: 54px; --stroke: 7px; }
+    body { margin: 0; background: rgba(0,0,0,0); color: #fff; font-family: sans-serif; }
+.panel { position: absolute; right: 0; bottom: 0; padding: 0; background: rgba(0,0,0,0); border-radius: 6px; z-index: 999999; transform: scale(0.85); transform-origin: bottom right; }
+.row { display: flex; gap: 4px; align-items: center; }
+.vitals { display: flex; gap: 4px; }
+    .ring { position: relative; width: var(--size); height: var(--size); }
+    .ring svg { transform: rotate(-90deg); width: 100%; height: 100%; }
+    .ring .bg { stroke: rgba(255,255,255,0.12); }
+    .ring .fg { transition: stroke-dashoffset 300ms cubic-bezier(0.2, 0.8, 0.2, 1); stroke-linecap: round; filter: drop-shadow(0 2px 3px rgba(0,0,0,0.35)); }
+.ring .label { position: absolute; inset: 0; display: grid; place-items: center; text-shadow: 0 1px 2px rgba(0,0,0,0.35); }
+    .material-symbols-outlined.icon { color: #ffffff; font-size: 20px; line-height: 1; font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 0, 'opsz' 24; }
+    .hp .fg { stroke: #ef5350; }
+    .armor .fg { stroke: #42a5f5; }
+    #status { display:none; }
+  </style>
+</head>
+<body>
+  <div class="panel" id="cefPanel">
+    <div class="row">
+      <div class="vitals">
+        <div class="ring hp" data-kind="hp">
+          <svg viewBox="0 0 100 100">
+            <circle class="bg" cx="50" cy="50" r="44" stroke-width="10" fill="none"/>
+            <circle class="fg" cx="50" cy="50" r="44" stroke-width="10" fill="none" stroke-linecap="round" stroke-dasharray="276" stroke-dashoffset="276"/>
+          </svg>
+          <div class="label" id="hpLabel">
+            <span class="material-symbols-outlined icon" aria-hidden="true">restaurant</span>
+          </div>
+        </div>
+        <div class="ring armor" data-kind="armor">
+          <svg viewBox="0 0 100 100">
+            <circle class="bg" cx="50" cy="50" r="44" stroke-width="10" fill="none"/>
+            <circle class="fg" cx="50" cy="50" r="44" stroke-width="10" fill="none" stroke-linecap="round" stroke-dasharray="276" stroke-dashoffset="276"/>
+          </svg>
+          <div class="label" id="armorLabel">
+            <span class="material-symbols-outlined icon" aria-hidden="true">shield</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="status">Pronto.</div>
+  </div>
+  <script>
+    function clamp(v,min,max){ return Math.max(min, Math.min(max, v)); }
+    function setRing(kind, percent){
+      percent = clamp(percent, 0, 100);
+      const ring = document.querySelector('.ring.'+kind);
+      if(!ring) return;
+      const fg = ring.querySelector('.fg');
+      const total = 2*Math.PI*44;
+      const offset = total * (1 - percent/100);
+      fg.setAttribute('stroke-dasharray', total.toFixed(0));
+      fg.setAttribute('stroke-dashoffset', offset.toFixed(2));
+    }
+    function updateVitals(food, armor){
+      const f = Math.round(clamp((Number(food)||0), 0, 100));
+      const a = Math.round(clamp((Number(armor)||0), 0, 100));
+      setRing('hp', f);
+      setRing('armor', a);
+    }
+  </script>
+</body>
+</html>

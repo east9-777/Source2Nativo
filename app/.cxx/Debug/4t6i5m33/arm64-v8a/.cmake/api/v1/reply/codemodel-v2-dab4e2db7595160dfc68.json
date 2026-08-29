@@ -1,0 +1,125 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "opus",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-opus-Debug-99da80b329256d18f8ad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "opus",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "samp",
+					"jsonFile" : "directory-samp-Debug-1935a9b5c45da8e3e56d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "samp",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "reversed"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Opus",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "samp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "opus::@27c8c1d919c410202cbb",
+					"jsonFile" : "target-opus-Debug-048d4c3bb935582b6d9d.json",
+					"name" : "opus",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "samp::@b6fce62990e69e83257e",
+					"jsonFile" : "target-samp-Debug-099abe907d0a42a26db0.json",
+					"name" : "samp",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/maria/Downloads/apknovo/app/.cxx/Debug/4t6i5m33/arm64-v8a",
+		"source" : "C:/Users/maria/Downloads/apknovo/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

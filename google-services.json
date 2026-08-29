@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "507249971590",
+    "project_id": "sampmobile-crashes",
+    "storage_bucket": "sampmobile-crashes.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507249971590:android:d7c8c222c4d1b3d93e5c07",
+        "android_client_info": {
+          "package_name": "com.kayzenroleplay.game"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMT4OXRG3u7IMENtuRUwT15hgK6yA5wYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,497 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.raiferoleplay.game"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="2.3" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="26"
+10        android:targetSdkVersion="36" />
+11
+12    <uses-permission android:name="INSTALL_PACKAGES" />
+12-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:7:5-56
+12-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:7:22-53
+13    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+13-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:8:5-76
+13-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:8:22-73
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:9:5-68
+14-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:9:22-65
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:10:5-80
+15-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:10:22-77
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:10:5-80
+16-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:12:5-81
+17-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:12:22-78
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:13:5-67
+18-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:13:22-64
+19    <uses-permission android:name="android.permission.VIBRATE" />
+19-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:14:5-66
+19-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:14:22-63
+20    <uses-permission android:name="android.permission.ACCESS_ALL_DOWNLOADS" />
+20-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:15:5-79
+20-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:15:22-76
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:16:5-79
+21-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:16:22-76
+22    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+22-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:17:5-73
+22-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:17:22-70
+23    <uses-permission android:name="android.permission.BLUETOOTH" />
+23-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:18:5-68
+23-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:18:22-65
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+24-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:19:5-75
+24-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:19:22-73
+25    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+25-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:20:5-81
+25-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:20:22-78
+26    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+26-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:21:5-77
+26-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:21:22-74
+27    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+27-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:22:5-83
+27-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:22:22-80
+28    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+28-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:23:5-82
+28-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:23:22-79
+29    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+29-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:24:5-71
+29-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:24:22-68
+30
+31    <uses-feature
+31-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:26:5-77
+32        android:glEsVersion="0x00020000"
+32-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:26:19-51
+33        android:required="true" />
+33-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:26:52-75
+34    <uses-feature
+34-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:27:5-29:36
+35        android:name="android.hardware.touchscreen"
+35-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:28:9-52
+36        android:required="false" />
+36-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:29:9-33
+37    <uses-feature
+37-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:30:5-32:36
+38        android:name="android.software.leanback"
+38-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:31:9-49
+39        android:required="false" />
+39-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:32:9-33
+40    <uses-feature
+40-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:33:5-35:36
+41        android:name="android.hardware.bluetooth"
+41-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:34:9-50
+42        android:required="false" />
+42-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:35:9-33
+43    <uses-feature
+43-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:36:5-38:36
+44        android:name="android.hardware.microphone"
+44-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:37:9-51
+45        android:required="false" />
+45-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:38:9-33
+46
+47    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+47-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:40:5-110
+47-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:40:22-107
+48    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+48-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:41:5-77
+48-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:41:22-74
+49    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+49-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:42:5-82
+49-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:42:22-79
+50    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+50-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\a427c3e1d60159755c3220607a39661f\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:5-79
+50-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\a427c3e1d60159755c3220607a39661f\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:22-76
+51
+52    <permission
+52-->[androidx.core:core:1.13.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\07fac41bb93d8a657bd6dae3d39d22e9\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+53        android:name="com.raiferoleplay.game.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+53-->[androidx.core:core:1.13.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\07fac41bb93d8a657bd6dae3d39d22e9\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+54        android:protectionLevel="signature" />
+54-->[androidx.core:core:1.13.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\07fac41bb93d8a657bd6dae3d39d22e9\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+55
+56    <uses-permission android:name="com.raiferoleplay.game.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+56-->[androidx.core:core:1.13.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\07fac41bb93d8a657bd6dae3d39d22e9\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+56-->[androidx.core:core:1.13.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\07fac41bb93d8a657bd6dae3d39d22e9\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+57
+58    <application
+58-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:44:5-120:19
+59        android:name="com.raiferoleplay.game.CefApplication"
+59-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:45:9-39
+60        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+60-->[androidx.core:core:1.13.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\07fac41bb93d8a657bd6dae3d39d22e9\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+61        android:banner="@mipmap/ic_launcher"
+61-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:48:9-45
+62        android:debuggable="true"
+63        android:extractNativeLibs="false"
+64        android:gwpAsanMode="always"
+64-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:46:9-37
+65        android:hardwareAccelerated="true"
+65-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:49:9-43
+66        android:icon="@mipmap/ic_launcher"
+66-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:50:9-43
+67        android:isGame="true"
+67-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:51:9-30
+68        android:label="@string/app_name"
+68-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:53:9-41
+69        android:largeHeap="true"
+69-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:52:9-33
+70        android:networkSecurityConfig="@xml/network_security_config"
+70-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:54:9-69
+71        android:requestLegacyExternalStorage="true"
+71-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:47:9-52
+72        android:roundIcon="@mipmap/ic_launcher_round"
+72-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:55:9-54
+73        android:supportsRtl="true"
+73-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:56:9-35
+74        android:testOnly="true"
+75        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+75-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:57:9-65
+76        android:usesCleartextTraffic="true"
+76-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:58:9-44
+77        android:windowSoftInputMode="adjustNothing" >
+77-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:59:9-52
+78        <activity
+78-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:60:9-65:61
+79            android:name="com.raiferoleplay.game.launcher.VideoUpgrade"
+79-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:61:13-50
+80            android:configChanges="orientation|screenSize"
+80-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:65:13-59
+81            android:hardwareAccelerated="true"
+81-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:64:13-47
+82            android:screenOrientation="landscape"
+82-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:62:13-50
+83            android:theme="@style/Theme.AppCompat.NoActionBar" />
+83-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:63:13-63
+84
+85        <provider
+86            android:name="androidx.core.content.FileProvider"
+86-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:68:13-62
+87            android:authorities="com.raiferoleplay.game.provider"
+87-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:69:13-60
+88            android:exported="false"
+88-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:70:13-37
+89            android:grantUriPermissions="true" >
+89-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:71:13-47
+90            <meta-data
+90-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:72:13-74:58
+91                android:name="android.support.FILE_PROVIDER_PATHS"
+91-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:73:17-67
+92                android:resource="@xml/provider_paths" />
+92-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:74:17-55
+93        </provider>
+94
+95        <activity
+95-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:77:9-84:39
+96            android:name="com.raiferoleplay.game.game.SAMP"
+96-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:78:13-60
+97            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+97-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:81:13-90
+98            android:exported="true"
+98-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:84:13-36
+99            android:launchMode="singleTask"
+99-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:82:13-44
+100            android:screenOrientation="landscape"
+100-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:79:13-50
+101            android:theme="@style/Theme.AppCompat.NoActionBar"
+101-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:80:13-63
+102            android:windowSoftInputMode="adjustPan" />
+102-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:83:13-52
+103        <activity
+103-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:86:9-91:20
+104            android:name="com.raiferoleplay.game.launcher.MainActivity"
+104-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:87:13-50
+105            android:screenOrientation="landscape"
+105-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:88:13-50
+106            android:theme="@style/Theme.AppCompat.NoActionBar"
+106-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:89:13-63
+107            android:windowSoftInputMode="adjustNothing" >
+107-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:90:13-56
+108        </activity>
+109        <activity
+109-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:93:9-103:20
+110            android:name="com.raiferoleplay.game.launcher.SplashActivity"
+110-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:94:13-52
+111            android:exported="true"
+111-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:96:13-36
+112            android:screenOrientation="landscape"
+112-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:95:13-50
+113            android:theme="@style/Theme.AppCompat.NoActionBar" >
+113-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:97:13-63
+114            <intent-filter>
+114-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:99:13-102:29
+115                <action android:name="android.intent.action.MAIN" />
+115-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:100:17-69
+115-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:100:25-66
+116
+117                <category android:name="android.intent.category.LAUNCHER" />
+117-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:101:17-77
+117-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:101:27-74
+118            </intent-filter>
+119        </activity>
+120        <activity
+120-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:105:9-109:20
+121            android:name="com.raiferoleplay.game.launcher.UpdateActivity"
+121-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:106:13-52
+122            android:screenOrientation="landscape"
+122-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:107:13-50
+123            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+123-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:108:13-69
+124        </activity>
+125
+126        <service
+126-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:111:9-106
+127            android:name="com.raiferoleplay.game.launcher.UpdateService"
+127-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:111:18-56
+128            android:enabled="true"
+128-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:111:57-79
+129            android:exported="false" />
+129-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:111:80-104
+130        <service
+130-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:113:9-119:19
+131            android:name="com.raiferoleplay.game.launcher.util.FirebaseMessageReceiver"
+131-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:114:13-88
+132            android:exported="false" >
+132-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:115:13-37
+133            <intent-filter>
+133-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:116:13-118:29
+134                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+134-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:117:17-78
+134-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:117:25-75
+135            </intent-filter>
+136        </service>
+137        <service
+137-->[com.google.firebase:firebase-crashlytics-ndk:18.3.5] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\00e89b7ceb763f5aa8f0f52ab4dfd09c\transformed\firebase-crashlytics-ndk-18.3.5\AndroidManifest.xml:31:9-37:19
+138            android:name="com.google.firebase.components.ComponentDiscoveryService"
+138-->[com.google.firebase:firebase-crashlytics-ndk:18.3.5] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\00e89b7ceb763f5aa8f0f52ab4dfd09c\transformed\firebase-crashlytics-ndk-18.3.5\AndroidManifest.xml:32:13-84
+139            android:directBootAware="true"
+139-->[com.google.firebase:firebase-common:20.3.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\0a600ab589cd878fe423273273638dba\transformed\firebase-common-20.3.0\AndroidManifest.xml:34:13-43
+140            android:exported="false" >
+140-->[com.google.firebase:firebase-crashlytics-ndk:18.3.5] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\00e89b7ceb763f5aa8f0f52ab4dfd09c\transformed\firebase-crashlytics-ndk-18.3.5\AndroidManifest.xml:33:13-37
+141            <meta-data
+141-->[com.google.firebase:firebase-crashlytics-ndk:18.3.5] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\00e89b7ceb763f5aa8f0f52ab4dfd09c\transformed\firebase-crashlytics-ndk-18.3.5\AndroidManifest.xml:34:13-36:85
+142                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar"
+142-->[com.google.firebase:firebase-crashlytics-ndk:18.3.5] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\00e89b7ceb763f5aa8f0f52ab4dfd09c\transformed\firebase-crashlytics-ndk-18.3.5\AndroidManifest.xml:35:17-122
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[com.google.firebase:firebase-crashlytics-ndk:18.3.5] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\00e89b7ceb763f5aa8f0f52ab4dfd09c\transformed\firebase-crashlytics-ndk-18.3.5\AndroidManifest.xml:36:17-82
+144            <meta-data
+144-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\e7e2f9a1cbfa462fb2a3c6b9ae015ef6\transformed\firebase-messaging-23.1.1\AndroidManifest.xml:55:13-57:85
+145                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+145-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\e7e2f9a1cbfa462fb2a3c6b9ae015ef6\transformed\firebase-messaging-23.1.1\AndroidManifest.xml:56:17-119
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\e7e2f9a1cbfa462fb2a3c6b9ae015ef6\transformed\firebase-messaging-23.1.1\AndroidManifest.xml:57:17-82
+147            <meta-data
+147-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\a427c3e1d60159755c3220607a39661f\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+148                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+148-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\a427c3e1d60159755c3220607a39661f\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\a427c3e1d60159755c3220607a39661f\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+150            <meta-data
+150-->[com.google.firebase:firebase-crashlytics:18.3.5] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\5ccb1069cf170cd071bfdf23280f8d00\transformed\firebase-crashlytics-18.3.5\AndroidManifest.xml:17:13-19:85
+151                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+151-->[com.google.firebase:firebase-crashlytics:18.3.5] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\5ccb1069cf170cd071bfdf23280f8d00\transformed\firebase-crashlytics-18.3.5\AndroidManifest.xml:18:17-115
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-crashlytics:18.3.5] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\5ccb1069cf170cd071bfdf23280f8d00\transformed\firebase-crashlytics-18.3.5\AndroidManifest.xml:19:17-82
+153            <meta-data
+153-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\4c17198ee46ea3e50002a4092aae9a3b\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+154                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+154-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\4c17198ee46ea3e50002a4092aae9a3b\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\4c17198ee46ea3e50002a4092aae9a3b\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+156            <meta-data
+156-->[com.google.firebase:firebase-installations:17.1.2] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\7a29f7fd0b4e1998f3ef984c0482bdf1\transformed\firebase-installations-17.1.2\AndroidManifest.xml:17:13-19:85
+157                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+157-->[com.google.firebase:firebase-installations:17.1.2] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\7a29f7fd0b4e1998f3ef984c0482bdf1\transformed\firebase-installations-17.1.2\AndroidManifest.xml:18:17-127
+158                android:value="com.google.firebase.components.ComponentRegistrar" />
+158-->[com.google.firebase:firebase-installations:17.1.2] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\7a29f7fd0b4e1998f3ef984c0482bdf1\transformed\firebase-installations-17.1.2\AndroidManifest.xml:19:17-82
+159        </service>
+160
+161        <receiver
+161-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\e7e2f9a1cbfa462fb2a3c6b9ae015ef6\transformed\firebase-messaging-23.1.1\AndroidManifest.xml:31:9-38:20
+162            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+162-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\e7e2f9a1cbfa462fb2a3c6b9ae015ef6\transformed\firebase-messaging-23.1.1\AndroidManifest.xml:32:13-78
+163            android:exported="true"
+163-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\e7e2f9a1cbfa462fb2a3c6b9ae015ef6\transformed\firebase-messaging-23.1.1\AndroidManifest.xml:33:13-36
+164            android:permission="com.google.android.c2dm.permission.SEND" >
+164-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\e7e2f9a1cbfa462fb2a3c6b9ae015ef6\transformed\firebase-messaging-23.1.1\AndroidManifest.xml:34:13-73
+165            <intent-filter>
+165-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\e7e2f9a1cbfa462fb2a3c6b9ae015ef6\transformed\firebase-messaging-23.1.1\AndroidManifest.xml:35:13-37:29
+166                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+166-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\e7e2f9a1cbfa462fb2a3c6b9ae015ef6\transformed\firebase-messaging-23.1.1\AndroidManifest.xml:36:17-81
+166-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\e7e2f9a1cbfa462fb2a3c6b9ae015ef6\transformed\firebase-messaging-23.1.1\AndroidManifest.xml:36:25-78
+167            </intent-filter>
+168        </receiver>
+169        <!--
+170             FirebaseMessagingService performs security checks at runtime,
+171             but set to not exported to explicitly avoid allowing another app to call it.
+172        -->
+173        <service
+173-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\e7e2f9a1cbfa462fb2a3c6b9ae015ef6\transformed\firebase-messaging-23.1.1\AndroidManifest.xml:44:9-51:19
+174            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+174-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\e7e2f9a1cbfa462fb2a3c6b9ae015ef6\transformed\firebase-messaging-23.1.1\AndroidManifest.xml:45:13-82
+175            android:directBootAware="true"
+175-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\e7e2f9a1cbfa462fb2a3c6b9ae015ef6\transformed\firebase-messaging-23.1.1\AndroidManifest.xml:46:13-43
+176            android:exported="false" >
+176-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\e7e2f9a1cbfa462fb2a3c6b9ae015ef6\transformed\firebase-messaging-23.1.1\AndroidManifest.xml:47:13-37
+177            <intent-filter android:priority="-500" >
+177-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:116:13-118:29
+178                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+178-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:117:17-78
+178-->C:\Users\NielzadaX\Downloads\source\Codigo Fonte Apk\app\src\main\AndroidManifest.xml:117:25-75
+179            </intent-filter>
+180        </service>
+181
+182        <receiver
+182-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\bbccacc9d15f5ed6446c7ab44082f26c\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+183            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+183-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\bbccacc9d15f5ed6446c7ab44082f26c\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+184            android:enabled="true"
+184-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\bbccacc9d15f5ed6446c7ab44082f26c\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+185            android:exported="false" >
+185-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\bbccacc9d15f5ed6446c7ab44082f26c\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+186        </receiver>
+187
+188        <service
+188-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\bbccacc9d15f5ed6446c7ab44082f26c\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+189            android:name="com.google.android.gms.measurement.AppMeasurementService"
+189-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\bbccacc9d15f5ed6446c7ab44082f26c\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+190            android:enabled="true"
+190-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\bbccacc9d15f5ed6446c7ab44082f26c\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+191            android:exported="false" />
+191-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\bbccacc9d15f5ed6446c7ab44082f26c\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+192        <service
+192-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\bbccacc9d15f5ed6446c7ab44082f26c\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+193            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+193-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\bbccacc9d15f5ed6446c7ab44082f26c\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+194            android:enabled="true"
+194-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\bbccacc9d15f5ed6446c7ab44082f26c\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+195            android:exported="false"
+195-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\bbccacc9d15f5ed6446c7ab44082f26c\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+196            android:permission="android.permission.BIND_JOB_SERVICE" />
+196-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\bbccacc9d15f5ed6446c7ab44082f26c\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+197
+198        <provider
+198-->[com.google.firebase:firebase-common:20.3.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\0a600ab589cd878fe423273273638dba\transformed\firebase-common-20.3.0\AndroidManifest.xml:25:9-30:39
+199            android:name="com.google.firebase.provider.FirebaseInitProvider"
+199-->[com.google.firebase:firebase-common:20.3.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\0a600ab589cd878fe423273273638dba\transformed\firebase-common-20.3.0\AndroidManifest.xml:26:13-77
+200            android:authorities="com.raiferoleplay.game.firebaseinitprovider"
+200-->[com.google.firebase:firebase-common:20.3.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\0a600ab589cd878fe423273273638dba\transformed\firebase-common-20.3.0\AndroidManifest.xml:27:13-72
+201            android:directBootAware="true"
+201-->[com.google.firebase:firebase-common:20.3.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\0a600ab589cd878fe423273273638dba\transformed\firebase-common-20.3.0\AndroidManifest.xml:28:13-43
+202            android:exported="false"
+202-->[com.google.firebase:firebase-common:20.3.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\0a600ab589cd878fe423273273638dba\transformed\firebase-common-20.3.0\AndroidManifest.xml:29:13-37
+203            android:initOrder="100" />
+203-->[com.google.firebase:firebase-common:20.3.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\0a600ab589cd878fe423273273638dba\transformed\firebase-common-20.3.0\AndroidManifest.xml:30:13-36
+204
+205        <activity
+205-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\56ba6f8bb0211337d9009eed808e89c9\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+206            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+206-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\56ba6f8bb0211337d9009eed808e89c9\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+207            android:exported="false"
+207-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\56ba6f8bb0211337d9009eed808e89c9\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+208            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+208-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\56ba6f8bb0211337d9009eed808e89c9\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+209
+210        <meta-data
+210-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\e920c658c67ab12779b821a4d008161e\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+211            android:name="com.google.android.gms.version"
+211-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\e920c658c67ab12779b821a4d008161e\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+212            android:value="@integer/google_play_services_version" />
+212-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\e920c658c67ab12779b821a4d008161e\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+213
+214        <provider
+214-->[androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\10d9847a7e6491250f4c76c415757432\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:24:9-32:20
+215            android:name="androidx.startup.InitializationProvider"
+215-->[androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\10d9847a7e6491250f4c76c415757432\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:25:13-67
+216            android:authorities="com.raiferoleplay.game.androidx-startup"
+216-->[androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\10d9847a7e6491250f4c76c415757432\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:26:13-68
+217            android:exported="false" >
+217-->[androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\10d9847a7e6491250f4c76c415757432\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:27:13-37
+218            <meta-data
+218-->[androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\10d9847a7e6491250f4c76c415757432\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:29:13-31:52
+219                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+219-->[androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\10d9847a7e6491250f4c76c415757432\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:30:17-78
+220                android:value="androidx.startup" />
+220-->[androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\10d9847a7e6491250f4c76c415757432\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:31:17-49
+221            <meta-data
+221-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\ef1527bb5fdc44855e6110de91a18402\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+222                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+222-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\ef1527bb5fdc44855e6110de91a18402\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+223                android:value="androidx.startup" />
+223-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\ef1527bb5fdc44855e6110de91a18402\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+224        </provider>
+225
+226        <service
+226-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\8401e26b84c4d55a7a01bcd711609793\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+227            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+227-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\8401e26b84c4d55a7a01bcd711609793\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+228            android:exported="false" >
+228-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\8401e26b84c4d55a7a01bcd711609793\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+229            <meta-data
+229-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\8401e26b84c4d55a7a01bcd711609793\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+230                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+230-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\8401e26b84c4d55a7a01bcd711609793\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+231                android:value="cct" />
+231-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\8401e26b84c4d55a7a01bcd711609793\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+232        </service>
+233        <service
+233-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\db2e61621bfa2b536c3356c18d1a8dd5\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+234            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+234-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\db2e61621bfa2b536c3356c18d1a8dd5\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+235            android:exported="false"
+235-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\db2e61621bfa2b536c3356c18d1a8dd5\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+236            android:permission="android.permission.BIND_JOB_SERVICE" >
+236-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\db2e61621bfa2b536c3356c18d1a8dd5\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+237        </service>
+238
+239        <receiver
+239-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\db2e61621bfa2b536c3356c18d1a8dd5\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+240            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+240-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\db2e61621bfa2b536c3356c18d1a8dd5\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+241            android:exported="false" />
+241-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\db2e61621bfa2b536c3356c18d1a8dd5\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+242        <receiver
+242-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\ef1527bb5fdc44855e6110de91a18402\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+243            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+243-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\ef1527bb5fdc44855e6110de91a18402\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+244            android:directBootAware="false"
+244-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\ef1527bb5fdc44855e6110de91a18402\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+245            android:enabled="true"
+245-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\ef1527bb5fdc44855e6110de91a18402\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+246            android:exported="true"
+246-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\ef1527bb5fdc44855e6110de91a18402\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+247            android:permission="android.permission.DUMP" >
+247-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\ef1527bb5fdc44855e6110de91a18402\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+248            <intent-filter>
+248-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\ef1527bb5fdc44855e6110de91a18402\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+249                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+249-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\ef1527bb5fdc44855e6110de91a18402\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+249-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\ef1527bb5fdc44855e6110de91a18402\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+250            </intent-filter>
+251            <intent-filter>
+251-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\ef1527bb5fdc44855e6110de91a18402\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+252                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+252-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\ef1527bb5fdc44855e6110de91a18402\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+252-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\ef1527bb5fdc44855e6110de91a18402\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+253            </intent-filter>
+254            <intent-filter>
+254-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\ef1527bb5fdc44855e6110de91a18402\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+255                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+255-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\ef1527bb5fdc44855e6110de91a18402\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+255-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\ef1527bb5fdc44855e6110de91a18402\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+256            </intent-filter>
+257            <intent-filter>
+257-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\ef1527bb5fdc44855e6110de91a18402\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+258                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+258-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\ef1527bb5fdc44855e6110de91a18402\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+258-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\NielzadaX\Downloads\samp-launcher-source-main\caches\8.13\transforms\ef1527bb5fdc44855e6110de91a18402\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+259            </intent-filter>
+260        </receiver>
+261    </application>
+262
+263</manifest>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">507249971590</string>
+    <string name="google_api_key" translatable="false">AIzaSyDMT4OXRG3u7IMENtuRUwT15hgK6yA5wYM</string>
+    <string name="google_app_id" translatable="false">1:507249971590:android:d7c8c222c4d1b3d93e5c07</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDMT4OXRG3u7IMENtuRUwT15hgK6yA5wYM</string>
+    <string name="google_storage_bucket" translatable="false">sampmobile-crashes.firebasestorage.app</string>
+    <string name="project_id" translatable="false">sampmobile-crashes</string>
+</resources>
