@@ -13,10 +13,6 @@ import android.os.Messenger;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
 import com.downloader.Error;
 import com.downloader.OnDownloadListener;
 import com.downloader.OnProgressListener;
@@ -136,60 +132,34 @@ public class UpdateService extends Service {
 
     void startUpdating()
     {
-        setUpdateStatus(UpdateActivity.UpdateStatus.CheckUpdate);
-        Volley.newRequestQueue(getApplicationContext()).add(new StringRequest("http://192.168.0.114/apikayzen/client_config.json", new Response.Listener<String>() {
-            @Override
-            public void onResponse(String response) {
-                try {
-                    mUpdateFiles = new ArrayList<>();
-                    mUpdateFilesName = new ArrayList<>();
-                    mUpdateFilesSize = new ArrayList<>();
+        /*
+         * The old update service depended on another private LAN endpoint.
+         * When that endpoint was offline, malformed, or unavailable outside
+         * the developer's network, SplashActivity never received a usable
+         * result and the launcher appeared to hang.
+         *
+         * Updates are intentionally skipped until a real public update API is
+         * configured. The game files already bundled with this source are
+         * still started normally.
+         */
+        mUpdateFiles = new ArrayList<>();
+        mUpdateFilesName = new ArrayList<>();
+        mUpdateFilesSize = new ArrayList<>();
+        mUpdateGameDataSize = 0;
+        mUpdateGameDataSizeUpdated = 0;
+        mGameStatus = UpdateActivity.GameStatus.Updated;
+        mUpdateStatus = UpdateActivity.UpdateStatus.Undefined;
 
-                    JSONObject jSONObject = new JSONObject(response).getJSONObject("client_config");
-                    mUpdateVersion = jSONObject.getInt("version_code");
-                    mUpdateGameURL = jSONObject.getString("url_launcher");
-
-                    String string = jSONObject.getString("url_cache_files");
-
-                    getFilesInfo(string);
-
-                    if (!isGameUpdateExists()) {
-                        if (mUpdateFiles.isEmpty()) {
-                            mGameStatus = UpdateActivity.GameStatus.Updated;
-                        }
-                        else {
-                            mGameStatus = UpdateActivity.GameStatus.UpdateRequired;
-                        }
-                    }
-                    else {
-                        mGameStatus = UpdateActivity.GameStatus.GameUpdateRequired;
-                    }
-
-                    setUpdateStatus(UpdateActivity.UpdateStatus.Undefined);
-
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
+        Message ready = Message.obtain(mInHandler, 5);
+        ready.getData().putString("status", mGameStatus.name());
+        ready.replyTo = mMessenger;
+        if (mActivityMessenger != null) {
+            try {
+                mActivityMessenger.send(ready);
+            } catch (RemoteException e) {
+                Log.e("UpdateService", "Não foi possível liberar o launcher", e);
             }
-        }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                Log.d("Thziim", "error " + error.toString());
-                mGameStatus = UpdateActivity.GameStatus.Unknown;
-                Message obtain = Message.obtain(mInHandler, 5);
-                obtain.getData().putString("status", mGameStatus.name());
-                obtain.replyTo = mMessenger;
-                Messenger messenger = mActivityMessenger;
-                if (messenger != null) {
-                    try {
-                        messenger.send(obtain);
-                    } catch (RemoteException e5) {
-                        e5.printStackTrace();
-                    }
-                }
-
-            }
-        }));
+        }
     }
 
     public void getFilesInfo(String response) throws JSONException {
@@ -379,7 +349,7 @@ public class UpdateService extends Service {
             Log.d("Thziim", "startDataUpdating " + mUpdateGameDataSize + " " + mUpdateGameDataSizeUpdated);
 
             mDownloadingStatus = true;
-            PRDownloader.download("http://192.168.0.114/apikayzen/com.raiferoleplay.game/" + arrayList.get(intRef.element), string.replace(arrayList1.get(intRef.element).toString(), ""), String.valueOf(arrayList1.get(intRef.element))).build().setOnStartOrResumeListener(null).setOnPauseListener(null).setOnCancelListener(null).setOnProgressListener(new OnProgressListener() {
+            PRDownloader.download("" + arrayList.get(intRef.element), string.replace(arrayList1.get(intRef.element).toString(), ""), String.valueOf(arrayList1.get(intRef.element))).build().setOnStartOrResumeListener(null).setOnPauseListener(null).setOnCancelListener(null).setOnProgressListener(new OnProgressListener() {
                 @Override
                 public void onProgress(Progress progress) {
                     mDownloadingStatus = true;

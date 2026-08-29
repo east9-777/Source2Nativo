@@ -23,9 +23,6 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import com.raiferoleplay.game.launcher.util.SharedPreferenceCore;
 import com.raiferoleplay.game.launcher.util.SignatureChecker;
 
@@ -37,11 +34,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.CompoundButton;
 import android.util.Log;
-import java.io.IOException;
-
 import android.widget.Switch;
-
-import org.ini4j.Wini;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -51,7 +44,18 @@ public class MainActivity extends AppCompatActivity {
     private boolean carregouServidor = false;
     private JSONArray servidoresCache = null;
 
-    private final String API_URL = "http://192.168.0.114/apikayzen/players.php";
+    /*
+     * The original launcher tried to load this list from a private LAN address
+     * (192.168.0.114). That address is not reachable from a player's phone and
+     * left the launcher permanently in the loading state.
+     *
+     * Keep the game endpoint here as the single source of truth. The list is
+     * local on purpose: the SA-MP game server is not an HTTP API and cannot be
+     * used to return the JSON that the old launcher expected.
+     */
+    private static final String SERVER_NAME = "Nativo RPG | BETA";
+    private static final String SERVER_HOST = "172.96.140.62";
+    private static final int SERVER_PORT = 3255;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -104,10 +108,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // =====================================================
-    // 🔹 CARREGA API UMA ÚNICA VEZ
+    // Carrega o servidor configurado uma única vez.
     private void carregarServidores() {
         new Thread(() -> {
-            servidoresCache = baixarServidoresDaWeb(API_URL);
+            servidoresCache = criarListaServidoresPadrao();
             JSONObject salvo = carregarServidorSalvo();
 
             runOnUiThread(() -> {
@@ -134,9 +138,28 @@ public class MainActivity extends AppCompatActivity {
 
                     carregouServidor = true;
 
-                } catch (Exception ignored) {}
+                } catch (Exception e) {
+                    Log.e("MainActivity", "Erro ao carregar servidor", e);
+                    serverNameText.setText("Erro ao carregar");
+                    carregouServidor = false;
+                }
             });
         }).start();
+    }
+
+    private JSONArray criarListaServidoresPadrao() {
+        JSONArray servidores = new JSONArray();
+        JSONObject servidor = new JSONObject();
+        try {
+            servidor.put("name", SERVER_NAME);
+            servidor.put("ip", SERVER_HOST);
+            servidor.put("port", String.valueOf(SERVER_PORT));
+            servidor.put("players", "Servidor online");
+            servidores.put(servidor);
+        } catch (Exception e) {
+            Log.e("MainActivity", "Erro ao criar servidor padrão", e);
+        }
+        return servidores;
     }
 
     // =====================================================
@@ -191,32 +214,6 @@ public class MainActivity extends AppCompatActivity {
         return null;
     }
 
-    // =====================================================
-    private JSONArray baixarServidoresDaWeb(String urlString) {
-        try {
-            HttpURLConnection con = (HttpURLConnection) new URL(urlString).openConnection();
-            con.setConnectTimeout(4000);
-            con.setReadTimeout(4000);
-
-            BufferedReader br = new BufferedReader(
-                    new InputStreamReader(con.getInputStream())
-            );
-
-            StringBuilder json = new StringBuilder();
-            String l;
-            while ((l = br.readLine()) != null) json.append(l);
-
-            br.close();
-            con.disconnect();
-
-            return new JSONArray(json.toString());
-
-        } catch (Exception e) {
-            return null;
-        }
-    }
-
-    // =====================================================
     private JSONObject carregarServidorSalvo() {
         try {
             File file = new File(getExternalFilesDir(null) + "/SAMP/server.json");
@@ -272,15 +269,46 @@ public class MainActivity extends AppCompatActivity {
             StringBuilder out = new StringBuilder();
             String line;
             boolean client = false;
+            boolean hostAtualizado = false;
+            boolean portaAtualizada = false;
 
             while ((line = br.readLine()) != null) {
-                if (line.equalsIgnoreCase("[client]")) client = true;
-                if (client && line.startsWith("host=")) line = "host=" + ip;
-                if (client && line.startsWith("port=")) line = "port=" + port;
-                if (line.startsWith("[") && !line.equalsIgnoreCase("[client]")) client = false;
+                String trimmed = line.trim();
+                if (trimmed.equalsIgnoreCase("[client]")) {
+                    client = true;
+                } else if (trimmed.startsWith("[") && trimmed.endsWith("]")) {
+                    if (client) {
+                        if (!hostAtualizado) {
+                            out.append("host=").append(ip).append("\n");
+                            hostAtualizado = true;
+                        }
+                        if (!portaAtualizada) {
+                            out.append("port=").append(port).append("\n");
+                            portaAtualizada = true;
+                        }
+                    }
+                    client = false;
+                } else if (client) {
+                    int separator = trimmed.indexOf('=');
+                    if (separator > 0) {
+                        String key = trimmed.substring(0, separator).trim();
+                        if (key.equalsIgnoreCase("host")) {
+                            line = "host=" + ip;
+                            hostAtualizado = true;
+                        } else if (key.equalsIgnoreCase("port")) {
+                            line = "port=" + port;
+                            portaAtualizada = true;
+                        }
+                    }
+                }
                 out.append(line).append("\n");
             }
             br.close();
+
+            if (client) {
+                if (!hostAtualizado) out.append("host=").append(ip).append("\n");
+                if (!portaAtualizada) out.append("port=").append(port).append("\n");
+            }
 
             FileWriter fw = new FileWriter(file);
             fw.write(out.toString());
@@ -415,11 +443,10 @@ public class MainActivity extends AppCompatActivity {
 
             if (!file.exists()) {
                 FileWriter fw = new FileWriter(file);
-                fw.write("[client]\nname=Nick_Name\nhost=\"\"\nport=\"\"\n\n");
+                fw.write("[client]\nname=Nick_Name\nhost=" + SERVER_HOST + "\nport=" + SERVER_PORT + "\n\n");
                 fw.write("[debug]\ndebug=false\nonline=true\n\n");
                 fw.write("[gui]\nFont=arial.ttf\nFontSize=30\nFontOutline=2\nChatMaxMessages=10\nandroidkeyboard=0\nfps_limit=60\nShowFPS=true\nChatShadow=true\nChatBackground=true\n");
                 fw.close();
-                return;
             }
             // ===== Carregar valores =====
             if (nick != null) nick.setText(lerIni("name", "launcher"));
@@ -487,17 +514,11 @@ public class MainActivity extends AppCompatActivity {
     }
     // =====================================================
     private void iniciarSAMP() {
-        // SETTINGS.INI
+        // O host e a porta são gravados pelo servidor selecionado acima.
+        // Não sobrescreva essa seleção com o endereço privado antigo.
         File file = new File(getExternalFilesDir(null) + "/SAMP/settings.ini");
-        if (file.exists()) {
-            try {
-                Wini wini = new Wini(file);
-                wini.put("client", "host", "192.168.0.114"); // IP fixo
-                wini.put("client", "port", 7777);             // Porta fixa
-                wini.store();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+        if (!file.exists()) {
+            atualizarSettingsIni(SERVER_HOST, String.valueOf(SERVER_PORT));
         }
 
         // MONETLOADER

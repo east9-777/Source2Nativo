@@ -257,8 +257,8 @@ void DoInitStuff()
 		//ReadSettingFile();
 
 		pNetGame = new CNetGame(
-			"192.168.0.114",          // IP fixo
-			7777,                     // Porta fixa
+			pSettings->Get().szHost,
+			pSettings->Get().iPort,
 			pSettings->Get().szNickName,
 			pSettings->Get().szPassword
 		);
