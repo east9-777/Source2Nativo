@@ -41,6 +41,14 @@ jobs:
           ls -la "$ANDROID_SDK_ROOT/ndk/26.2.11394342"
           ls -la "$ANDROID_SDK_ROOT/cmake/3.22.1/bin/cmake"
 
+      - name: Remove Windows build cache
+        run: |
+          rm -rf .gradle
+          rm -rf app/.cxx
+          rm -rf app/build
+          find . -type d -name ".cxx" -prune -exec rm -rf {} +
+          find . -type d -name "build" -prune -exec rm -rf {} +
+
       - name: Clean project
         run: ./gradlew clean --no-daemon --stacktrace
 
