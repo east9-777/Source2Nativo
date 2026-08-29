@@ -11,26 +11,27 @@ contents: read
 
 jobs:
 build:
-name: Build APK
+name: Build Android APK
 runs-on: ubuntu-24.04
 
 steps:
-  - name: Checkout repository
+  - name: Checkout source
     uses: actions/checkout@v4
 
-  - name: Set up JDK 17
+  - name: Setup Java 17
     uses: actions/setup-java@v4
     with:
       distribution: temurin
       java-version: '17'
       cache: gradle
 
-  - name: Set up Android SDK
+  - name: Setup Android SDK
     uses: android-actions/setup-android@v3
 
-  - name: Install Android SDK components
+  - name: Install Android SDK / NDK / CMake
     run: |
       yes | sdkmanager --licenses || true
+
       sdkmanager \
         "platform-tools" \
         "platforms;android-35" \
@@ -38,49 +39,74 @@ steps:
         "cmake;3.22.1" \
         "ndk;26.2.11394342"
 
-  - name: Show build environment
+  - name: Check project
     run: |
-      echo "Java:"
-      java -version
+      echo "===== ROOT ====="
+      ls -la
 
-      echo "Gradle:"
-      ./gradlew --version
+      echo "===== APP ====="
+      ls -la app || true
 
-      echo "Android SDK:"
-      sdkmanager --list_installed | grep -E "platforms;android-35|build-tools;35.0.0|cmake;3.22.1|ndk;26.2.11394342" || true
+      echo "===== GRADLE ====="
+      ls -la gradle || true
+
+      echo "===== CMAKE ====="
+      find app/src/main/cpp -maxdepth 3 -type f | sort | head -200 || true
 
   - name: Make Gradle executable
     run: chmod +x ./gradlew
 
-  - name: Clean project
-    run: ./gradlew clean --stacktrace
+  - name: Check Gradle
+    run: |
+      ./gradlew --version
 
-  - name: Build Release APK
-    run: ./gradlew assembleRelease --stacktrace --info
+  - name: Clean
+    run: |
+      ./gradlew clean --stacktrace --no-daemon
 
-  - name: List generated APKs
+  - name: Build Debug APK
+    run: |
+      ./gradlew assembleDebug \
+        --stacktrace \
+        --info \
+        --no-daemon
+
+  - name: Find APK
     if: always()
     run: |
-      echo "===== APK FILES ====="
-      find app/build/outputs -type f -name "*.apk" -o -name "*.aab" -print 2>/dev/null || true
+      echo "===== GENERATED FILES ====="
+
+      find . \
+        -type f \
+        -name "*.apk" -o -name "*.aab" \
+        -print 2>/dev/null || true
+
+      echo ""
+      echo "===== APP BUILD DIRECTORY ====="
+
+      find app/build \
+        -maxdepth 5 \
+        -type f \
+        -print 2>/dev/null | head -500 || true
 
   - name: Upload APK
-    if: success()
+    if: always()
     uses: actions/upload-artifact@v4
     with:
-      name: Source2Nativo-release
+      name: APK-debug
       path: |
-        app/build/outputs/apk/release/*.apk
-      if-no-files-found: error
+        app/build/outputs/apk/**/*.apk
+        app/build/outputs/apk/*.apk
+      if-no-files-found: warn
       retention-days: 30
 
-  - name: Upload native build logs
+  - name: Upload complete build directory
     if: failure()
     uses: actions/upload-artifact@v4
     with:
-      name: build-logs
+      name: build-debug-files
       path: |
-        app/build/**/*.log
+        app/build/**
         app/.cxx/**
-      if-no-files-found: ignore
+      if-no-files-found: warn
       retention-days: 7
